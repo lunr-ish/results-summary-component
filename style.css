@@ -66,3 +66,49 @@
   --fw-bold: 700;
   --fw-extra-bold: 800;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: var(--ff-hanken-grotesk);
+  font-weight: var(--fw-medium);
+  background: hsl(var(--clr-pale-blue));
+  color: hsl(var(--clr-gray-blue));
+}
+
+p,
+h1,
+h2 {
+  overflow-wrap: break-word;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+button {
+  display: block;
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: transparent;
+  cursor: pointer;
+  padding: 0;
+}
