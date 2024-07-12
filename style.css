@@ -28,3 +28,41 @@
   font-weight: 800;
   font-style: normal;
 }
+
+:root {
+  /* COLOR */
+  /* PRIMARY */
+  --clr-red: 0 100% 67%;
+  --clr-yellow: 39 100% 56%;
+  --clr-green: 166 100% 37%;
+  --clr-blue: 234 85% 45%;
+  /* NEUTRAL */
+  --clr-white: 0 0% 100%;
+  --clr-pale-blue: 221 100% 96%;
+  --clr-light-lavender: 241 100% 89%;
+  --clr-gray-blue: 224 30% 27%;
+
+  /* GRADIENT */
+  /* BG */
+  --clr-slate-blue: 252 100% 67%;
+  --clr-royal-blue: 241 81% 54%;
+  --grad-bg: linear-gradient(
+    hsl(var(--clr-slate-blue)),
+    hsl(var(--clr-royal-blue))
+  );
+  /* CIRCLE */
+  --clr-violet-blue: 256 72% 46%;
+  --clr-persian-blue: 241 72% 46%;
+  --grad-circle: linear-gradient(
+    hsl(var(--clr-violet-blue) / 100%),
+    hsl(var(--clr-persian-blue) / 0%)
+  );
+
+  /* FONT FAMILY */
+  --ff-hanken-grotesk: "Hanken Grotesk", sans-serif;
+
+  /* FONT WEIGHT */
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --fw-extra-bold: 800;
+}
