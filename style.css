@@ -84,7 +84,7 @@ body {
   min-height: 100vh;
   font-family: var(--ff-hanken-grotesk);
   font-weight: var(--fw-medium);
-  background: hsl(var(--clr-pale-blue));
+  background: hsl(var(--clr-white));
   color: hsl(var(--clr-gray-blue));
 }
 
