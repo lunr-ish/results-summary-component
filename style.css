@@ -240,6 +240,20 @@ section.result {
   color: hsl(var(--clr-gray-blue));
 }
 
+.btn-continue {
+  width: 100%;
+  background: hsl(var(--clr-gray-blue));
+  color: hsl(var(--clr-pale-blue));
+  font-weight: bold;
+  padding: 1.0625rem;
+  font-size: 1.125rem;
+  border-radius: 5rem;
+}
+
+.btn-continue:is(:hover, :focus-visible) {
+  background: var(--grad-bg);
+}
+
 @media (min-width: 48rem) {
   body {
     display: flex;
